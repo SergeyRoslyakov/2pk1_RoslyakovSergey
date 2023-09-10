@@ -8,7 +8,7 @@
             double b = 1;
             double c = Math.PI / 2;
 
-            double result = Math.Log(5) / Math.Sin(c) - Math.Sqrt(Math.Abs(-2.5 - Math.Pow(a, 2))) - (Math.Pow(10, 3) * a - b) / Math.Cos(b) + +Math.Pow(Math.Abs(-5 - Math.Pow(a, 2)), 1 / 3) - 2.5 * c;
+            double result = Math.Log(5) / Math.Sin(c) - Math.Sqrt(Math.Abs(-2.5 - Math.Pow(a, 2))) - (Math.Pow(10, 3) * a - b) / Math.Cos(b) + +Math.Pow(Math.Abs(-5 - Math.Pow(a, 2)), 1.0 / 3.0) - 2.5 * c;
             
             Console.WriteLine(result);
         }
