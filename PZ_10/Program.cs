@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            string text = "привет, как дела? привет, как хорошо.";
+            string text = "Привет, как дела? Привет, хорошо.";
 
             // Разделение текста на предложения по знакам пунктуации
             string[] sentences = text.Split(new char[] { '.', '!', '?' });
